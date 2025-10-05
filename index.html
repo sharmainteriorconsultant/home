@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharma Interior Consultant | Home</title>
+    <!-- <link rel="stylesheet" href="./dist/output.css"> -->
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <link rel="stylesheet" href="./custom.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,1,0" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="./src/slider.js" defer></script>
+</head>
+
+<body>
+
+    <header class="bg-gray-900 text-[#ffa800] sticky top-0 w-full z-50 drop-shadow-xl">
+        <nav class="max-w-screen-xl  mx-auto flex gap-10 justify-between items-center px-5 py-3">
+            <div class=" flex items-center">
+                <a href="./index.html">
+                    <h1 class="text-2xl lg:text-3xl font-semibold uppercase">Sharma Interior Consultant</h1>
+                </a>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="toggle-menu" class="hidden">
+                <label for="toggle-menu" class="lg:hidden"><i class="bi bi-list text-3xl"></i></label>
+                <ul
+                    class="fixed top-0 h-screen -left-full w-[90vw] duration-200 max-w-[500px]  lg:static lg:h-fit lg:w-full lg:max-w-full bg-gray-900 lg:bg-transparent flex flex-col lg:flex-row gap-5 lg:gap-7 p-5 lg:py-2 [&>li]:text-sm [&>li]:uppercase lg:[&>li]:border-b-2  [&>li]:transition-all [&>li]:duration-200">
+                    <div class=" border-b-2 pb-2 flex items-center justify-between lg:hidden">
+                        <a href="./index.html">
+                            <h1 class="uppercase font-bold">Sharma Interior Consultant</h1>
+                        </a>
+                        <label for="toggle-menu"><i class="bi bi-x-lg text-2xl"></i></label>
+                    </div>
+                    <li class="border-white hover:border-white underline lg:no-underline underline-offset-4"><a
+                            href="./index.html">Home</a></li>
+                    <li class="border-transparent hover:border-white"><a href="#about">About Us</a></li>
+                    <!-- <li class="border-transparent hover:border-white"><a href="./gallery.html">Projects</a></li> -->
+                    <li class="border-transparent hover:border-white"><a href="#services">Services</a></li>
+                    <!-- <li class="border-transparent hover:border-white"><a href="./contact-us.html">Our Clients</a></li> -->
+                    <li class="border-transparent hover:border-white"><a href="tel:+918750547403">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <custom-swiper autoplay="true" loop="true" speed="1000"
+            breakpoints='{"640":{"slidesPerView":1},"1024":{"slidesPerView":1}}'>
+            <div class="w-full relative swiper-slide">
+                <div class="">
+                    <img src="./assets/images/img1.jpg" alt="" class="w-full h-full max-h-screen object-cover ">
+                </div>
+                <div
+                    class="text-center px-2.5 py-10 text-balance top-0 max-h-screen flex flex-col items-center justify-center gap-6 md:gap-16 absolute h-full w-full bg-black/40">
+                    <h2
+                        class="text-base md:text-xl mb lg:text-4xl text-white capitalize px-10 lg:px-28  w-full flex flex-col items-center justify-center">
+                        Transforming spaces for future
+                    </h2>
+                    <p class="text-white text-2xl lg:text-5xl font-bold uppercase">Imagine Interiors</p>
+                    <p class="text-xs md:text-lg text-white">Interior design | Exterior Design | Custom Furniture</p>
+                </div>
+            </div>
+
+            <div class="w-full relative swiper-slide">
+                <div class="">
+                    <img src="./assets/images/img3.jpg" alt="" class="w-full h-full max-h-screen object-cover ">
+                </div>
+                <div
+                    class="text-center px-2.5 py-10 text-balance top-0 max-h-screen flex flex-col items-center justify-center gap-6 md:gap-16 absolute h-full w-full bg-black/40">
+                    <h2
+                        class="text-base md:text-xl mb lg:text-4xl text-white capitalize px-10 lg:px-28  w-full flex flex-col items-center justify-center">
+                        Transforming spaces for future
+                    </h2>
+                    <p class="text-white text-2xl lg:text-5xl font-bold uppercase">Imagine Interiors</p>
+                    <p class="text-xs md:text-lg text-white">Interior design | Exterior Design | Custom Furniture</p>
+                </div>
+            </div>
+            <div class="w-full relative swiper-slide">
+                <div class="">
+                    <img src="./assets/images/img4.jpg" alt="" class="w-full h-full max-h-screen object-cover ">
+                </div>
+                <div
+                    class="text-center px-2.5 py-10 text-balance top-0 max-h-screen flex flex-col items-center justify-center gap-6 md:gap-16 absolute h-full w-full bg-black/40">
+                    <h2
+                        class="text-base md:text-xl mb lg:text-4xl text-white capitalize px-10 lg:px-28  w-full flex flex-col items-center justify-center">
+                        Transforming spaces for future
+                    </h2>
+                    <p class="text-white text-2xl lg:text-5xl font-bold uppercase">Imagine Interiors</p>
+                    <p class="text-xs md:text-lg text-white">Interior design | Exterior Design | Custom Furniture</p>
+                </div>
+            </div>
+        </custom-swiper>
+
+        <section class="bg-white text-black my-10 px-5" id="about">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-5 md:gap-10 items-center ">
+                <figure class="flex items-center justify-center md:w-1/2 text-5xl flex-1">
+                    <img src="./assets/logo.png" alt="logo" width="50" height="50"
+                        class="w-32 rounded h-full object-cover">
+
+                </figure>
+                <p class="text-lg md:text-xl md:w-2/3 lg:w-1/2 flex flex-col gap-5 flex-2">
+                    “Even if you don't have a ready sketch of what you want - we will help you to get the result you
+                    dreamed of.”
+                </p>
+            </div>
+        </section>
+
+        <section class="my-10 px-5" id="">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-10">
+                <div class="flex items-center justify-center md:w-1/2">
+                    <img src="./assets/images/about-us.webp" alt="" class="w-full rounded h-full object-cover">
+                </div>
+                <div class="md:w-2/3 lg:w-1/2 flex flex-col gap-5">
+                    <h2 class="text-3xl lg:text-5xl font-semibold text-gray-950 ">About Us</h2>
+                    <div class="flex flex-col gap-3 items-start justify-between">
+                        <p>
+                            At <span class="font-semibold text-[#ffa800]">Sharma Interior Consultant</span>, we believe
+                            that your space should tell your story. With a passion for aesthetics and functionality, we
+                            specialize in transforming residential, commercial, and office spaces into elegant and
+                            personalized environments that reflect your vision.
+                        </p>
+
+                        <p>
+                            Founded with a commitment to creativity and quality, Sharma Interior Consultant has been
+                            delivering innovative interior solutions tailored to our clients' unique needs and
+                            lifestyles. Whether it's a cozy home makeover or a modern corporate setup, we ensure every
+                            project is handled with professionalism, precision, and an eye for detail.
+                        </p>
+                        <ul class="list-disc list-inside flex flex-col gap-2">
+                            <li><span class="font-semibold">Customized Designs</span> - Every design is crafted
+                                according to your taste, budget, and space.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Experienced Team</span> - A dedicated team of interior experts with years of industry knowledge.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Turnkey Solutions</span> - From concept to completion, we manage it all.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Affordable Excellence</span> - Premium results at competitive pricing.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="flex flex-col md:flex-row">
+                <!-- Card 1 -->
+                <div
+                    class="relative bg-gradient-to-tl from-[rgba(255,170,0,0.1)] to-[rgba(255,170,0,0.6)] p-8 flex-1 h-96 flex flex-col justify-end transition-all duration-300 hover:shadow-xl hover:border-black  overflow-hidden">
+                    <div
+                        class="absolute text-9xl md:text-[150px] font-bold text-[rgba(255,170,0,0.5)] bottom-2 right-4 select-none pointer-events-none">
+                        01</div>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-2 relative z-10">Interior Design</h2>
+                    <p class="text-sm md:text-base text-balance text-gray-700 relative z-10">Invigorate your space. We believe in reflecting your
+                        brand identity.</p>
+                    <div
+                        class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,0,0,0.03),transparent_40%)]">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="relative bg-gradient-to-tl from-[rgba(255,170,0,0.1)] to-[rgba(255,170,0,0.6)] p-8 flex-1 h-96 flex flex-col justify-end transition-all duration-300 hover:shadow-xl hover:border-black  overflow-hidden">
+                    <div
+                        class="absolute text-9xl md:text-[150px] font-bold text-[rgba(255,170,0,0.5)] bottom-2 right-4 select-none pointer-events-none">
+                        02</div>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-2 relative z-10">Fit-Out</h2>
+                    <p class="text-sm md:text-base text-balance text-gray-700 relative z-10">Designing & delivering commercial fit-outs that exude
+                        style.</p>
+                    <div
+                        class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_80%_80%,rgba(0,0,0,0.03),transparent_40%)]">
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="relative bg-gradient-to-tl from-[rgba(255,170,0,0.1)] to-[rgba(255,170,0,0.6)] p-8 flex-1 h-96 flex flex-col justify-end transition-all duration-300 hover:shadow-xl hover:border-black  overflow-hidden">
+                    <div
+                        class="absolute text-9xl md:text-[150px] font-bold text-[rgba(255,170,0,0.5)] bottom-2 right-4 select-none pointer-events-none">
+                        03</div>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-2 relative z-10">Consultancy</h2>
+                    <p class="text-sm md:text-base text-balance text-gray-700 relative z-10">We provide end-to-end consultancy to enhance your
+                        interior vision.</p>
+                    <div
+                        class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0.02),transparent_40%)]">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="">
+            <div class="max-w-screen-xl mx-auto py-10 px-5 text-center">
+                <p class="text-gray-500 uppercase tracking-widest text-sm mb-2">Our Services</p>
+                <h2 class="text-4xl font-bold mb-4">What we do</h2>
+                <p class="text-gray-600 mb-12">
+                    We are able to originate design schemes and put effective inter-disciplinary teams together to
+                    review existing strategies.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Card 1 -->
+                    <div class="bg-[rgba(255,170,0,0.2)] p-8 shadow-sm hover:shadow-md transition rounded-md">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/850/850960.png" alt="Retail Icon"
+                            class="mx-auto w-16 h-16 mb-4" /> -->
+                        <h3 class="text-xl font-semibold mb-2">Retail Build-outs</h3>
+                        <p class="text-gray-600 text-sm">We will help you to get the result you dreamed of.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-[rgba(255,170,0,0.2)] p-8 shadow-sm hover:shadow-md transition rounded-md">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2949/2949763.png" alt="Office Icon"
+                            class="mx-auto w-16 h-16 mb-4" /> -->
+                        <h3 class="text-xl font-semibold mb-2">Office Tenant Improvements</h3>
+                        <p class="text-gray-600 text-sm">Individual, aesthetically stunning solutions for customers.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-[rgba(255,170,0,0.2)] p-8 shadow-sm hover:shadow-md transition rounded-md">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/3313/3313980.png" alt="Store Icon"
+                            class="mx-auto w-16 h-16 mb-4" /> -->
+                        <h3 class="text-xl font-semibold mb-2">Open Store Remodels</h3>
+                        <p class="text-gray-600 text-sm">We create and produce our product design lines.</p>
+                    </div>
+                </div>
+                <div class="mt-10 flex justify-center items-center flex-col gap-6 md:gap-8">
+                    <p>Are you ready to makeover your space?</p>
+                    <a href="tel:+918750547403"
+                        class="px-6 py-2 whitespace-nowrap bg-[#ffa800] text-white rounded hover:bg-white border border-[#ffa800] hover:text-[#ffa800] transition">Contact
+                        Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#1f1f1f] py-16 text-center text-white overflow-hidden hidden">
+            <!-- <h2 class="text-4xl font-bold mb-2">Happy Users</h2>
+            <p class="text-gray-300 mb-10 max-w-4xl mx-auto">
+                We are able to originate design schemes and put effective inter-disciplinary teams together to review
+                existing strategies.
+            </p> -->
+
+            <!-- Scrolling container -->
+            <!-- <div class="relative w-full overflow-hidden">
+                <div class="slider-track flex gap-16 items-center min-w-max animate-scroll">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/United_Colors_of_Benetton_logo.svg"
+                        class="h-14 w-auto" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Travel_Food_Services_Logo.png"
+                        class="h-14 w-auto" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Pizza_Hut_logo.svg"
+                        class="h-14 w-auto" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Onitsuka_Tiger_logo.svg"
+                        class="h-14 w-auto" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" class="h-14 w-auto" />
+                </div>
+            </div> -->
+        </section>
+
+        <style>
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            .animate-scroll {
+                animation: scroll 20s linear infinite;
+            }
+        </style>
+
+    </main>
+
+    <footer class="bg-gradient-to-tl bg-[rgba(255,170,0,0.3)] -white">
+
+        <div class="max-w-screen-xl mx-auto px-5 py-10 flex flex-col md:flex-row justify-between gap-10">
+
+            <div class=" flex flex-col gap-3">
+
+                <div class="md:max-w-1/2">
+                    <p class="text-2xl font-semibold mb-5">Office</p>
+                    <address>
+                           Plot no. 62, Street no. 1, Jai Maa Saraswati Property, Pancheel
+                           colony, Ismailpur, Faridabad, Haryana-121003
+                    </address>
+                </div>
+                
+
+                <ul class="text-3xl flex gap-3">
+                    <!-- <li class="hover:text-blue-600 duration-300"><a href="#"><i class="bi bi-facebook"></i></a></li> -->
+                    <li class="hover:text-red-700 duration-300"><a href="https://www.instagram.com/sharma_interior_consultant"><i class="bi bi-instagram"></i></a></li>
+                    <!-- <li class="hover:text-blue-500 duration-300"><a href="#"><i class="bi bi-linkedin"></i></a></li> -->
+                </ul>
+            </div>
+
+            <!-- <div class="lg:w-1/3 "> 
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div> -->
+
+            <div class="">
+                <p class="text-2xl font-semibold mb-5">Contact Us</p>
+                <ul
+                    class="flex flex-col gap-3 [&>li]:md:text-xl [&>li]:flex [&>li]:items-center [&>li]:justify-start [&>li]:gap-3">
+                    <li class="hover:ps-1 duration-500">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <a href="tel:+918750547403">+91 8750547403</a>
+                    </li>
+                    <li class="hover:ps-1 duration-500">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        <a href="mailto:sharmainteriorconsultant@gmail.com">sharmainteriorconsultant@gmail.com</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <div class="bg-gray-900 text-[#ffa800]">
+
+            <div
+                class="max-w-screen-xl mx-auto flex justify-center flex-col-reverse md:flex-row gap-5 items-center px-5 py-3">
+
+                <div class="text-center md:text-left">
+                    <p>Copyright © 2025 <a href="./index.html">Sharma Interior Consultant</a> All rights reserved.</p>
+                </div>
+
+                <!-- <ul class="flex gap-3">
+                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="./term-and-conditions.html">Terms & Conditions</a></li>
+                </ul> -->
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
