@@ -4,43 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next Fashion | About Us</title>
+    <title>Sharma Interior Consultant | Home</title>
     <!-- <link rel="stylesheet" href="./dist/output.css"> -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./custom.css">
-
+    <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,1,0" />
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
 <body>
 
-    <header class="bg-gradient-to-tr from-indigo-800 to-indigo-900 text-white sticky top-0 w-full z-50 drop-shadow-xl">
+    <header class="bg-gray-900 text-[#ffa800] sticky top-0 w-full z-50 drop-shadow-xl">
         <nav class="max-w-screen-xl  mx-auto flex gap-10 justify-between items-center px-5 py-3">
             <div class=" flex items-center">
-                <a href="index.html">
-                    <h1 class="text-3xl lg:text-4xl font-semibold uppercase">Next Fashion</h1>
+                <a href="./index.html">
+                    <h1 class="text-2xl lg:text-3xl font-semibold uppercase">Sharma Interior Consultant</h1>
                 </a>
             </div>
             <div>
                 <input type="checkbox" name="" id="toggle-menu" class="hidden">
-                <label for="toggle-menu" class="lg:hidden"><i class="bi bi-list"></i></label>
+                <label for="toggle-menu" class="lg:hidden"><i class="bi bi-list text-3xl"></i></label>
                 <ul
-                    class="fixed top-0 h-screen -left-full w-[50vw] duration-200 max-w-[500px]  lg:static lg:h-fit lg:w-full lg:max-w-full bg-indigo-800 lg:bg-transparent flex flex-col lg:flex-row gap-5 lg:gap-7 p-5 lg:py-2 [&>li]:text-xl lg:[&>li]:border-b-2  [&>li]:transition-all [&>li]:duration-200">
+                    class="fixed top-0 h-screen -left-full w-[90vw] duration-200 max-w-[500px]  lg:static lg:h-fit lg:w-full lg:max-w-full bg-gray-900 lg:bg-transparent flex flex-col lg:flex-row gap-5 lg:gap-7 p-5 lg:py-2 [&>li]:text-sm [&>li]:uppercase lg:[&>li]:border-b-2  [&>li]:transition-all [&>li]:duration-200">
                     <div class=" border-b-2 pb-2 flex items-center justify-between lg:hidden">
                         <a href="./index.html">
-                            <h1 class="uppercase font-bold">Next Fashion</h1>
+                            <h1 class="uppercase font-bold">Sharma Interior Consultant</h1>
                         </a>
-                        <label for="toggle-menu"><i class="bi bi-x-lg"></i></label>
+                        <label for="toggle-menu"><i class="bi bi-x-lg text-2xl"></i></label>
                     </div>
-                    <li class="border-transparent hover:border-white"><a href="./index.html">Home</a></li>
                     <li class="border-white hover:border-white underline lg:no-underline underline-offset-4"><a
-                            href="./about.html">About Us</a></li>
-                    <li class="border-transparent hover:border-white"><a href="./gallery.html">Gallery</a></li>
-                    <li class="border-transparent hover:border-white"><a href="./fashion-show.html">Fashion Show</a></li>
-                    <li class="border-transparent hover:border-white"><a href="./contact-us.html">Contact Us</a></li>
+                            href="./index.html">Home</a></li>
+                    <li class="border-transparent hover:border-white"><a href="./about.html">About Us</a></li>
+                    <!-- <li class="border-transparent hover:border-white"><a href="./gallery.html">Projects</a></li> -->
+                    <li class="border-transparent hover:border-white"><a href="#services">Services</a></li>
+                    <!-- <li class="border-transparent hover:border-white"><a href="./contact-us.html">Our Clients</a></li> -->
+                    <li class="border-transparent hover:border-white"><a href="tel:+918750547403">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -48,85 +47,134 @@
     </header>
 
     <main>
-        <section class=" bg-[url('./assets/images/banner-image.jpg')] bg-cover bg-no-repeat bg-bottom">
-            <h1 class="text-center text-3xl md:text-5xl py-5 px-3 text-white font-bold bg-[rgba(0,0,0,0.5)]">About Us
-            </h1>
-        </section>
-
-        <section>
-            <div class="max-w-screen-xl mx-auto px-3 py-5 flex flex-col gap-5  md:text-xl">
-                <p>
-                    We are manufacturers & exporters of Knitted garments for men's, ladies and kids. Decades of our
-                    manufacturing experience, modern manufacturing facilities, team of dedicated technical staff and
-                    operators make us provide best quality knitted garments manufacturing services at competitive
-                    prices.
-                </p>
-                <p>
-                    Our products conform to global code of conduct norms, with all health safety measures, labor laws
-                    and social commitments. We have pre-allocated production planning which ensure to execute all of our
-                    orders in-time our strong supply chain enable us to shorten production lead time and quick
-                    deliveries. We are also able to ship goods within a short lead-time like 30 days. Depend on style,
-                    quantity.
-                </p>
+        <section class="bg-[url('./assets/images/aboutusbanner_converted.webp')] bg-cover bg-no-repeat bg-bottom">
+            <div
+                class="min-h-44 md:min-h-64 lg:min-h-80 text-white bg-[rgba(0,0,0,0.5)]  py-5 px-3 flex flex-col gap-5 items-center justify-center mx-auto">
+                <h1 class="text-center text-3xl md:text-5xl font-bold">
+                    About Us
+                </h1>
+                <div class="flex items-center justify-center gap-2 text-sm md:text-base">
+                    <a href="/" class="hover:underline duration-100">Home</a>
+                    <span><i class="bi bi-chevron-right"></i></span> 
+                    <span>About Us</span>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div class="max-w-screen-xl mx-auto px-3 py-5 flex flex-col gap-5 md:flex-row">
-
-                <div class="md:w-1/2">
-                    <h2 class="text-xl md:text-2xl font-bold ">BOARD OF DIRECTORS</h2>
-                    <ul class="mt-2 flex flex-col gap-3 [&>li]:text-xl [&>li>p]:flex [&>li>p]:flex-col">
-                        <li>
-                            <p class="capitalize">Mr. Lovekesh Kumar <span class="italic">- Managing Director</span></p>
-                        </li>
-                        <li>
-                            <p class="capitalize">Ms. Sheelu <span class="italic">- Executive Director</span></p>
-                        </li>
-                    </ul>
+        <section class="my-10 px-5" id="">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-10">
+                <div class="flex items-center justify-center md:w-1/2">
+                    <img src="./assets/images/about-us.webp" alt="" class="w-full rounded h-full object-cover">
                 </div>
+                <div class="md:w-2/3 lg:w-1/2 flex flex-col gap-5">
+                    <h2 class="text-3xl lg:text-5xl font-semibold text-gray-950 ">About Us</h2>
+                    <div class="flex flex-col gap-3 items-start justify-between">
+                        <p>
+                            At <span class="font-semibold text-[#ffa800]">Sharma Interior Consultant</span>, we believe
+                            that your space should tell your story. With a passion for aesthetics and functionality, we
+                            specialize in transforming residential, commercial, and office spaces into elegant and
+                            personalized environments that reflect your vision.
+                        </p>
 
-                <div class="md:w-1/2">
-                    <h2 class="text-xl md:text-2xl font-bold ">KEY MANAGEMENT PERSONS IN THE COMPANY</h2>
-                    <ul class="mt-2 flex flex-col gap-3 [&>li]:text-xl [&>li>p]:flex [&>li>p]:flex-col">
-                        <li>
-                            <p class="capitalize">Vandana <span class="italic">- Business Head (ladies Wear)</span></p>
-                        </li>
-                    </ul>
+                        <p>
+                            Founded with a commitment to creativity and quality, Sharma Interior Consultant has been
+                            delivering innovative interior solutions tailored to our clients' unique needs and
+                            lifestyles. Whether it's a cozy home makeover or a modern corporate setup, we ensure every
+                            project is handled with professionalism, precision, and an eye for detail.
+                        </p>
+                        <ul class="list-disc list-inside flex flex-col gap-2">
+                            <li><span class="font-semibold">Customized Designs</span> - Every design is crafted
+                                according to your taste, budget, and space.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Experienced Team</span> - A dedicated team of interior
+                                experts with years of industry knowledge.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Turnkey Solutions</span> - From concept to completion, we
+                                manage it all.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Affordable Excellence</span> - Premium results at
+                                competitive pricing.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
             </div>
+        </section>
 
+        <section class="">
+            <div class="max-w-screen-xl mx-auto py-10 px-5 text-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Card 1 -->
+                    <div class="bg-[rgba(255,170,0,0.2)] p-8 shadow-sm hover:shadow-md transition rounded-md">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/850/850960.png" alt="Retail Icon"
+                            class="mx-auto w-16 h-16 mb-4" /> -->
+                        <h3 class="text-xl font-semibold mb-2">Mission</h3>
+                        <p class="text-gray-600 text-sm">Create a consistent, Mutually Profitable stores that delivers a premium consumer experience.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-[rgba(255,170,0,0.2)] p-8 shadow-sm hover:shadow-md transition rounded-md">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2949/2949763.png" alt="Office Icon"
+                            class="mx-auto w-16 h-16 mb-4" /> -->
+                        <h3 class="text-xl font-semibold mb-2">Vision</h3>
+                        <p class="text-gray-600 text-sm">Retail is the invitation to a lifelong relationship that unlocks human potential.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="bg-[url('./assets/images/aboutusbanner_converted.webp')] bg-cover bg-no-repeat bg-bottom">
+            <div class="min-h-44 md:min-h-64 lg:min-h-80 text-white bg-[rgba(0,0,0,0.5)]  py-5 px-3 ">
+                <div class="max-w-screen-xl mx-auto px-3 py-5 flex flex-col gap-2 md:gap-3  md:text-xl text-center">
+                    <h2 class="text-3xl lg:text-5xl font-semibold text-center mb-1 md:mb-1.5">Execution
+                        Expertise</h2>
+                    <p class="text-sm md:text-base">
+                        We are the team of experienced professional providing innovative solutions of executions of
+                        interior and exterior challenges. our all efforts are to create value and deliver timely
+                        solutions with promised quality & minimum budget.
+                    </p>
+                    <p class="text-sm md:text-base">We also follow the safety norms to avoid accident at site, also to
+                        care our employee we are also registered for PF & ESIC.</p>
+                    <p class="text-sm md:text-base">With the expert team we re capable to deliver all types of the
+                        project on PAN India level without any huddle.</p>
+                </div>
+            </div>
+        </section>
+
+         <section class="">
+            <div class="max-w-screen-xl mx-auto py-10 px-5 text-center flex justify-center items-center flex-col gap-6 md:gap-8">
+                <p>Are you ready to makeover your space?</p>
+                <a href="tel:+918750547403"
+                class="px-6 py-2 whitespace-nowrap bg-[#ffa800] text-white rounded hover:bg-white border border-[#ffa800] hover:text-[#ffa800] transition">Contact
+                Us</a>
+                
+            </div>
         </section>
     </main>
 
 
-    <footer class="bg-gradient-to-tl from-indigo-800 to-indigo-900 text-white">
+     <footer class="bg-gradient-to-tl bg-[rgba(255,170,0,0.3)] -white">
+
         <div class="max-w-screen-xl mx-auto px-5 py-10 flex flex-col md:flex-row justify-between gap-10">
+
             <div class=" flex flex-col gap-3">
-                <div class="">
-                    <p class="text-xl font-semibold">CORPORATE OFFICE</p>
+
+                <div class="md:max-w-1/2">
+                    <p class="text-2xl font-semibold mb-5">Office</p>
                     <address>
-                        <a href="#">
-                            B1/A19, Mohan Cooperative Industrial Estate
-                            South Delhi, New Delhi, India
-                        </a>
+                           Plot no. 62, Street no. 1, Jai Maa Saraswati Property, Pancheel
+                           colony, Ismailpur, Faridabad, Haryana-121003
                     </address>
                 </div>
-                <div>
-                    <p class="text-xl font-semibold">FACTORY ADDRESS</p>
-                    <address>
-                        <a href="#">
-                            Shiv Durga Vihar, Vill. Lakkarpur,
-                            Distt. Faridabad, Haryana, India
-                        </a>
-                    </address>
-                </div>
+                
 
                 <ul class="text-3xl flex gap-3">
-                    <li class="hover:text-blue-600 duration-300"><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li class="hover:text-red-700 duration-300"><a href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li class="hover:text-blue-500 duration-300"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                    <!-- <li class="hover:text-blue-600 duration-300"><a href="#"><i class="bi bi-facebook"></i></a></li> -->
+                    <li class="hover:text-red-700 duration-300"><a href="https://www.instagram.com/sharma_interior_consultant"><i class="bi bi-instagram"></i></a></li>
+                    <!-- <li class="hover:text-blue-500 duration-300"><a href="#"><i class="bi bi-linkedin"></i></a></li> -->
                 </ul>
             </div>
 
@@ -140,43 +188,45 @@
             <div class="">
                 <p class="text-2xl font-semibold mb-5">Contact Us</p>
                 <ul
-                    class="flex flex-col gap-3 [&>li]:text-xl [&>li]:flex [&>li]:items-center [&>li]:justify-start [&>li]:gap-3">
-                    <li class="hover:ps-1 duration-500 hover:text-indigo-300">
+                    class="flex flex-col gap-3 [&>li]:md:text-xl [&>li]:flex [&>li]:items-center [&>li]:justify-start [&>li]:gap-3">
+                    <li class="hover:ps-1 duration-500">
                         <span class="material-symbols-outlined">
                             call
                         </span>
-                        <a href="tel:+918800327127">+91 8800327127</a>
+                        <a href="tel:+918750547403">+91 8750547403</a>
                     </li>
-                    <li class="hover:ps-1 duration-500 hover:text-indigo-300">
+                    <li class="hover:ps-1 duration-500">
                         <span class="material-symbols-outlined">
                             mail
                         </span>
-                        <a href="mailto:info@nextfashion.in">info@nextfashion.in</a>
+                        <a href="mailto:sharmainteriorconsultant@gmail.com">sharmainteriorconsultant@gmail.com</a>
                     </li>
-                    <li class="hover:ps-1 duration-500 hover:text-indigo-300">
-                        <span class="material-symbols-outlined">
-                            mail
-                        </span>
-                        <a href="mailto:nextfashion44@gmail.com	">nextfashion44@gmail.com</a>
-                    </li>
+                    
                 </ul>
             </div>
+
         </div>
 
-        <div class="bg-indigo-950">
+
+
+        <div class="bg-gray-900 text-[#ffa800]">
+
             <div
-                class="max-w-screen-xl mx-auto flex  flex-col-reverse md:flex-row gap-5 justify-between items-center px-5 py-3">
+                class="max-w-screen-xl mx-auto flex justify-center flex-col-reverse md:flex-row gap-5 items-center px-5 py-3">
 
                 <div class="text-center md:text-left">
-                    <p>Copyright © 2023 <a href="./index.html">Next Fashions</a> All rights reserved.</p>
+                    <p>Copyright © 2025 <a href="./index.html">Sharma Interior Consultant</a> All rights reserved.</p>
                 </div>
 
-                <ul class="flex gap-3">
+                <!-- <ul class="flex gap-3">
                     <li><a href="./privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="./term-and-conditions.html">Terms & Conditions</a></li>
-                </ul>
+                </ul> -->
+
             </div>
+
         </div>
+
     </footer>
 </body>
 
