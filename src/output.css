@@ -513,7 +513,7 @@
     background-image: radial-gradient(circle at 80% 80%,rgba(0,0,0,0.03),transparent 40%);
   }
   .bg-\[url\(\'\.\/assets\/images\/aboutusbanner_converted\.webp\'\)\] {
-    background-image: url('./assets/images/aboutusbanner_converted.webp');
+    background-image: url('assets/images/aboutusbanner_converted.webp');
   }
   .bg-\[url\(\'\.\/assets\/images\/banner-image\.jpg\'\)\] {
     background-image: url('./assets/images/banner-image.jpg');
